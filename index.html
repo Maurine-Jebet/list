@@ -1,0 +1,33 @@
+    <!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+<title>Adding and Removing List</title>
+<div id="list">My To-Do-List</div>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 5px;
+}
+</style>
+</head>
+<body>
+<ul id="myList">
+</ul>
+<input type="text" id="newItem">
+<button onclick="addItem()">Add Item</button>
+<button onclick="removeItem()">Remove Item</button>
+<!-- <button onclick="deleteItem()">Delete Item</button> -->
+
+
+    <div id="liss"></div>
+    <script src="list.js"></script>
+    
+</body>
+</html>
